@@ -16,7 +16,7 @@ namespace WPFAndMVVM1
 			set 
 			{ 
 				myLabelText = value;
-                // Alternativt skriv OnPropertyChanged("MyLabelText");
+                // Alternativt skriv med citationstegn OnPropertyChanged("MyLabelText");
                 OnPropertyChanged(nameof(MyLabelText));
 			}
 		}		
